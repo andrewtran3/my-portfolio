@@ -106,6 +106,7 @@ a:visited { color: black; }
     display: flex;
     align-items: center;
     justify-content: center;
+    left: 10%;
     flex-direction: column;
     position: relative;
     z-index: 2;
