@@ -1,7 +1,3 @@
-#particles-js {
-    height: 100%;
-}
-
 /* Global Styles */
 *{
     padding: 0;
@@ -12,8 +8,12 @@
 }
 body {
     background-color: #343F4F; 
+    height: 90vh;
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
+}
+#particles-js {
+    height: 100%;
 }
 .container{
     display: flex;
@@ -188,3 +188,29 @@ a:visited { color: black; }
     background: #333;
 } 
 
+/* Resize */
+@media screen and (max-width: 1200px) {
+    h1{
+        font-size: calc(100% + 70px);
+    }
+ 
+    .wrapper-text .static-txt{
+        font-size: calc(100% + 20px);
+    }
+    .dynamic-txts li{
+        font-size: calc(100% + 20px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: calc(100% + 50px);
+    }
+ 
+    .wrapper-text .static-txt{
+        font-size: calc(100% + 10px);
+    }
+    .dynamic-txts li{
+        font-size: calc(100% + 10px);
+    }
+}
